@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbarLi {
+    @apply hover:text-hoverColor cursor-pointer duration-300;
+  }
+}
